@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../css/ChatInput.css";
 
 export default function ChatInput({ onSendMsg }) {
   const [input, setInput] = useState("");
@@ -9,11 +10,12 @@ export default function ChatInput({ onSendMsg }) {
   };
   return (
     <>
-      <div>
+      <div className="input-div">
         <input
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && handleSend()}
         />
         <button onClick={handleSend}>Gönder</button>
       </div>
