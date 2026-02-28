@@ -12,10 +12,6 @@ function App() {
       role: "ai",
       text: "Merhaba! Sana nasıl yardımcı olabilirim",
     },
-    {
-      role: "user",
-      text: "React öğreniyorum",
-    },
   ]);
 
   const handleSendMsg = async (text) => {

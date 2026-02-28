@@ -1,0 +1,26 @@
+.title-ai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.react-logo {
+    width: 80px; 
+    height: auto;
+    animation: spin 10s linear infinite;
+    margin-bottom: 10px;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.messages-container {
+    max-height: 500px; 
+    overflow-y: auto;  
+    padding: 15px;
+}

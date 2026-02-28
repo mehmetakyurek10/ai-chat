@@ -16,6 +16,7 @@ export default function ChatInput({ onSendMsg }) {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && handleSend()}
+          placeholder="Herhangi bir şey sor"
         />
         <button onClick={handleSend}>Gönder</button>
       </div>

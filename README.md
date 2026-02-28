@@ -10,7 +10,11 @@ A modern, real-time chat application powered by Google's Gemini AI. Built with R
 - **Fast Development**: Built with Vite for rapid development and lightning-fast builds
 - **Easy Setup**: Simple configuration with environment variables
 
-## 🛠️ Tech Stack
+## � Preview
+
+![AI Chat Application](images/screenshot.png)
+
+## �🛠️ Tech Stack
 
 - **Frontend Framework**: React 19
 - **Build Tool**: Vite 7
