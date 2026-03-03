@@ -12,7 +12,7 @@ A modern, real-time chat application powered by Google's Gemini AI. Built with R
 
 ## � Preview
 
-![AI Chat Application](images/screenshot.png)
+![AI Chat Application](./src/images/screenshot.png)
 
 ## �🛠️ Tech Stack
 
